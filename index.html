@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+</head>
+
+<body>
+    <div id="map_img_container" >
+        <img id="map_img" src="img/map.jpg" alt="map" usemap="#test" width=8157 height="6362" draggable="false">
+        <map id="imgmap202498132824" name="test">
+            <area shape="circle" alt="origin" title="origin" coords="3915,3000,150" href="" />
+            <area shape="circle" alt="Chemosh" title="Chemosh" coords="3591,3463,155" href="" target="" />
+            <area shape="circle" alt="Elysium" title="Elysium" coords="4391,3099,147" href="" target="" />
+            <area shape="circle" alt="Kumi" title="Kumi" coords="4605,3625,145" href="" target="" />
+            <area shape="circle" alt="Szellem" title="Szellem" coords="3233,2617,113" href="" target="" />
+            <area shape="circle" alt="Albedo" title="Albedo" coords="3377,4077,145" href="" target="" />
+            <area shape="circle" alt="Mare" title="Mare" coords="4099,2139,139" href="" target="" />
+            <area shape="circle" alt="Alstel" title="Alstel" coords="5197,3077,125" href="" target="" />
+            <area shape="circle" alt="Masser" title="Masser" coords="4267,4547,115" href="" target="" />
+            <area shape="circle" alt="Caecus" title="Caecus" coords="2451,3343,79" href="" target="" />
+            <area shape="circle" alt="Neso" title="Neso" coords="2427,3139,83" href="" target="" />
+            <area shape="circle" alt="Aurora" title="Aurora" coords="4931,2007,119" href="" target="" />
+            <area shape="circle" alt="Amethys" title="Amethys" coords="5531,3715,115" href="" target="" />
+            <area shape="circle" alt="Tartarus" title="Tartarus" coords="3155,1567,171" href="" target="" />
+            <area shape="circle" alt="Kypselis" title="Kypselis" coords="5203,4895,171" href="" target="" />
+            <area shape="circle" alt="Magelian" title="Magelian" coords="2257,4725,113" href="" target="" />
+            <area shape="circle" alt="Iris" title="Iris" coords="6485,2501,157" href="" target="" />
+            <area shape="circle" alt="Szalonna" title="Szalonna" coords="885,2709,117" href="" target="" />
+            <area shape="circle" alt="Ciel" title="Ciel" coords="3352,63,139" href="" target="" />
+        </map>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="JS/jquery.rwdImageMaps.min.js"></script>
+    <script>
+        $(document).ready(function (e) {
+            $('img[usemap]').rwdImageMaps();
+
+            $('area').on('click', function () {
+                alert($(this).attr('alt') + ' clicked');
+            });
+        });
+    </script>
+    <!-- <script src="Js/Map.js"></script> -->
+
+</body>
+
+</html>
