@@ -17,13 +17,13 @@ $.getJSON('../Json/locations.json', function (Json) {
         markers.push(L.marker(Json[index].lang, { icon: myIcon, title: Json[index].name }).bindPopup(Json[index].name).addTo(map));
     }
 })
-L.polyline([[
-    3364.5,
-    3918.5
-], [
-    2900.25,
-    3590
-]],{color: 'red'}).addTo(map);
+// L.polyline([[
+//     3364.5,
+//     3918.5
+// ], [
+//     2900.25,
+//     3590
+// ]],{color: 'red'}).addTo(map);
 
 // var mymap = L.map('map').setView([51.505, -0.09], 13);
 
