@@ -8,10 +8,22 @@ map.fitBounds(bounds);
 var myIcon = L.icon({
     iconUrl: 'img/marker-icon.png',
     iconSize: [25, 41],
-    iconAnchor: [12,20]
+    iconAnchor: [12, 40]
 });
-
-L.marker([3815,4000], {icon: myIcon}).bindPopup("Test</br>").addTo(map);
+var markers = [];
+$.getJSON('../Json/locations.json', function (Json) {
+    for (let index = 0; index < 19; index++) {
+        const element = Json[index];
+        markers.push(L.marker(Json[index].lang, { icon: myIcon, title: Json[index].name }).bindPopup(Json[index].name).addTo(map));
+    }
+})
+L.polyline([[
+    3364.5,
+    3918.5
+], [
+    2900.25,
+    3590
+]],{color: 'red'}).addTo(map);
 
 // var mymap = L.map('map').setView([51.505, -0.09], 13);
 
