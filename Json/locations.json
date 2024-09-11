@@ -1,0 +1,153 @@
+{
+    "0": {
+        "name": "Origin",
+        "lang": [
+            3364.5,
+            3918.5
+        ],
+        "icon" : "myIcon"
+    },
+    "1": {
+        "name": "Chemosh",
+        "lang": [
+            2900.25,
+            3590
+        ],
+        "icon" : "myIcon"
+    },
+    "2": {
+        "name": "Elysium",
+        "lang": [
+            3264.0625,
+            4389
+        ],
+        "icon" : "myIcon"
+    },
+    "3": {
+        "name": "Kumi",
+        "lang": [
+            2738,
+            4600.5
+        ],
+        "icon" : "myIcon"
+    },
+    "4": {
+        "name": "Szellem",
+        "lang": [
+            3747,
+            3231
+        ],
+        "icon" : "myIcon"
+    },
+    "5": {
+        "name": "Albedo",
+        "lang": [
+            2290.875,
+            3377.75
+        ],
+        "icon" : "myIcon"
+    },
+    "6": {
+        "name": "Mare",
+        "lang": [
+            4225.5,
+            4101
+        ],
+        "icon" : "myIcon"
+    },
+    "7": {
+        "name": "Alstel",
+        "lang": [
+            3286.21875,
+            5195.59375
+        ],
+        "icon" : "myIcon"
+    },
+    "8": {
+        "name": "Masser",
+        "lang": [
+            1812.25,
+            4263.875
+        ],
+        "icon" : "myIcon"
+    },
+    "9": {
+        "name": "Caecus",
+        "lang": [
+            3018,
+            2447.5
+        ],
+        "icon" : "myIcon"
+    },
+    "10": {
+        "name": "Neso",
+        "lang": [
+            3226.5,
+            2429
+        ],
+        "icon" : "myIcon"
+    },
+    "11": {
+        "name": "Aurora",
+        "lang": [
+            4356.5,
+            4929.375
+        ],
+        "icon" : "myIcon"
+    },
+    "12": {
+        "name": "Amethyst",
+        "lang": [
+            2647.5,
+            5528.25
+        ],
+        "icon" : "myIcon"
+    },
+    "13": {
+        "name": "Tartarus",
+        "lang": [
+            4797.59375,
+            3152.375
+        ],
+        "icon" : "myIcon"
+    },
+    "14": {
+        "name": "Kypselis",
+        "lang": [
+            1468,
+            5201.5
+        ],
+        "icon" : "myIcon"
+    },
+    "15": {
+        "name": "Magellan",
+        "lang": [
+            1640.25,
+            2250.75
+        ],
+        "icon" : "myIcon"
+    },
+    "16": {
+        "name": "Iris",
+        "lang": [
+            3862.5,
+            6481.3125
+        ],
+        "icon" : "myIcon"
+    },
+    "17": {
+        "name": "Szalonna",
+        "lang": [
+            3656.6875,
+            883.75
+        ],
+        "icon" : "myIcon"
+    },
+    "18": {
+        "name": "Ciel",
+        "lang": [
+            6305.25,
+            3351.25
+        ]
+    }
+}
